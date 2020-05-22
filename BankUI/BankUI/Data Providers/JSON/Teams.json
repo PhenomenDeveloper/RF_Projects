@@ -1,0 +1,74 @@
+[
+    {
+        "teamId": "bizonsId",
+        "picture": "bizons",
+        "name": "Хейтеры",
+        "players":
+         [
+             "gzkdsacvdsgzkdsacvds", "damsofkjsdamsofkjs" , "sdnjncsdnmcnds", "ddweijdosjddweijdosj"
+        ]
+    },
+    {
+        "teamId": "cyborgId",
+        "picture": "kiborg",
+        "name": "Черная дыра",
+        "players":
+         [
+             "gzpofds", "davfdmsoerfverkfkjs" , "fspc4a35ds", "dd23sac3dosj"
+        ]
+    },
+    {
+        "teamId": "oldSchoolId",
+        "picture": "oldschool",
+        "name": "Старая школа",
+        "players":
+         [
+             "odl32njne", "dopoas3hn" , "d325aqwsd", "dox32uais9"
+        ]
+    },
+    {
+        "teamId": "raftId",
+        "picture": "raft",
+        "name": "Рафт",
+        "players":
+         [
+             "4fs9isjwj3", "bgambbfgs" , "fraftnds", "vthzht63j"
+        ]
+    },
+    {
+        "teamId": "SMEId",
+        "picture": "sme",
+        "name": "SME",
+        "players":
+         [
+             "densam", "lenkim" , "oldbars", "dimble", "yarjar"
+        ]
+    },
+    {
+        "teamId": "PlatformId",
+        "picture": "platform",
+        "name": "Платформа",
+        "players":
+         [
+             "gazvkaz", "dwade" , "andrbir", "dennaz"
+        ]
+    },
+    {
+        "teamId": "ELbrusId",
+        "picture": "elbrus",
+        "name": "Эльбрус",
+        "players":
+         [
+             "gzkdsacvds", "damsofkjs" , "fsdnjncsdnmcnds", "ddweijdosj", "jenevg"
+        ]
+    },
+    {
+        "teamId": "bambooId",
+        "picture": "bamboo",
+        "name": "Бамбу",
+        "players":
+         [
+             "gjirads", "dconfluencejs" , "fsonars", "artifactj"
+        ]
+    }
+]

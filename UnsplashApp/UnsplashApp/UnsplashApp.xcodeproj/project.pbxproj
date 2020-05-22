@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15538EED23B4D6A4004CBA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538EEC23B4D6A4004CBA95 /* AppDelegate.swift */; };
+		15538EEF23B4D6A4004CBA95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538EEE23B4D6A4004CBA95 /* SceneDelegate.swift */; };
+		15538EF623B4D6A6004CBA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15538EF523B4D6A6004CBA95 /* Assets.xcassets */; };
+		15538EF923B4D6A6004CBA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15538EF723B4D6A6004CBA95 /* LaunchScreen.storyboard */; };
+		15538F0223B4D722004CBA95 /* MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F0123B4D722004CBA95 /* MainTabVC.swift */; };
+		15538F0623B4D7A4004CBA95 /* UnsplashConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F0523B4D7A4004CBA95 /* UnsplashConfigurator.swift */; };
+		15538F0823B4D7BB004CBA95 /* UnsplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F0723B4D7BB004CBA95 /* UnsplashRouter.swift */; };
+		15538F0A23B4D7CE004CBA95 /* UnsplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F0923B4D7CE004CBA95 /* UnsplashPresenter.swift */; };
+		15538F0C23B4D814004CBA95 /* UnsplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F0B23B4D814004CBA95 /* UnsplashInteractor.swift */; };
+		15538F0F23B4D864004CBA95 /* UnsplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F0E23B4D864004CBA95 /* UnsplashVC.swift */; };
+		15538F1123B4D876004CBA95 /* UnsplashCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F1023B4D876004CBA95 /* UnsplashCollectionCell.swift */; };
+		15538F1423B4D904004CBA95 /* UnsplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F1323B4D904004CBA95 /* UnsplashModel.swift */; };
+		15538F1923B4D960004CBA95 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F1823B4D960004CBA95 /* Constants.swift */; };
+		15538F1E23B4D9E9004CBA95 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F1D23B4D9E9004CBA95 /* AsyncOperation.swift */; };
+		15538F2023B4DA09004CBA95 /* GetImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F1F23B4DA09004CBA95 /* GetImageOperation.swift */; };
+		15538F2223B4DA40004CBA95 /* ImageLoadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F2123B4DA40004CBA95 /* ImageLoadOperation.swift */; };
+		15538F2423B4DA62004CBA95 /* ImageOutputOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F2323B4DA62004CBA95 /* ImageOutputOperation.swift */; };
+		15538F2623B4DA97004CBA95 /* ImageLoadProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F2523B4DA97004CBA95 /* ImageLoadProvider.swift */; };
+		15538F2923B4DAF9004CBA95 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F2823B4DAF9004CBA95 /* NetworkService.swift */; };
+		15538F2B23B4DB16004CBA95 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F2A23B4DB16004CBA95 /* NetworkDataFetcher.swift */; };
+		15538F2D23B4DB31004CBA95 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F2C23B4DB31004CBA95 /* SearchResults.swift */; };
+		15538F3123B4DB76004CBA95 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F3023B4DB76004CBA95 /* Extension+UIColor.swift */; };
+		15538F3323B4DB9A004CBA95 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15538F3223B4DB99004CBA95 /* Extension+UIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15538EE923B4D6A4004CBA95 /* UnsplashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15538EEC23B4D6A4004CBA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15538EEE23B4D6A4004CBA95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15538EF523B4D6A6004CBA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15538EF823B4D6A6004CBA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15538EFA23B4D6A6004CBA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15538F0123B4D722004CBA95 /* MainTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC.swift; sourceTree = "<group>"; };
+		15538F0523B4D7A4004CBA95 /* UnsplashConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashConfigurator.swift; sourceTree = "<group>"; };
+		15538F0723B4D7BB004CBA95 /* UnsplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashRouter.swift; sourceTree = "<group>"; };
+		15538F0923B4D7CE004CBA95 /* UnsplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashPresenter.swift; sourceTree = "<group>"; };
+		15538F0B23B4D814004CBA95 /* UnsplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashInteractor.swift; sourceTree = "<group>"; };
+		15538F0E23B4D864004CBA95 /* UnsplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashVC.swift; sourceTree = "<group>"; };
+		15538F1023B4D876004CBA95 /* UnsplashCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashCollectionCell.swift; sourceTree = "<group>"; };
+		15538F1323B4D904004CBA95 /* UnsplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashModel.swift; sourceTree = "<group>"; };
+		15538F1823B4D960004CBA95 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		15538F1D23B4D9E9004CBA95 /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		15538F1F23B4DA09004CBA95 /* GetImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImageOperation.swift; sourceTree = "<group>"; };
+		15538F2123B4DA40004CBA95 /* ImageLoadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadOperation.swift; sourceTree = "<group>"; };
+		15538F2323B4DA62004CBA95 /* ImageOutputOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOutputOperation.swift; sourceTree = "<group>"; };
+		15538F2523B4DA97004CBA95 /* ImageLoadProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadProvider.swift; sourceTree = "<group>"; };
+		15538F2823B4DAF9004CBA95 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		15538F2A23B4DB16004CBA95 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		15538F2C23B4DB31004CBA95 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		15538F3023B4DB76004CBA95 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		15538F3223B4DB99004CBA95 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15538EE623B4D6A4004CBA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15538EE023B4D6A4004CBA95 = {
+			isa = PBXGroup;
+			children = (
+				15538EEB23B4D6A4004CBA95 /* UnsplashApp */,
+				15538EEA23B4D6A4004CBA95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15538EEA23B4D6A4004CBA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15538EE923B4D6A4004CBA95 /* UnsplashApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15538EEB23B4D6A4004CBA95 /* UnsplashApp */ = {
+			isa = PBXGroup;
+			children = (
+				15538EEC23B4D6A4004CBA95 /* AppDelegate.swift */,
+				15538EEE23B4D6A4004CBA95 /* SceneDelegate.swift */,
+				15538F0323B4D76B004CBA95 /* MainVC */,
+				15538F0423B4D781004CBA95 /* UnsplashVC */,
+				15538F1A23B4D992004CBA95 /* Services */,
+				15538F1723B4D948004CBA95 /* Helpers */,
+				15538F2F23B4DB5B004CBA95 /* Extensions */,
+				15538F0023B4D70D004CBA95 /* Resources */,
+				15538EF723B4D6A6004CBA95 /* LaunchScreen.storyboard */,
+				15538EFA23B4D6A6004CBA95 /* Info.plist */,
+			);
+			path = UnsplashApp;
+			sourceTree = "<group>";
+		};
+		15538F0023B4D70D004CBA95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15538EF523B4D6A6004CBA95 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		15538F0323B4D76B004CBA95 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				15538F0123B4D722004CBA95 /* MainTabVC.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		15538F0423B4D781004CBA95 /* UnsplashVC */ = {
+			isa = PBXGroup;
+			children = (
+				15538F0523B4D7A4004CBA95 /* UnsplashConfigurator.swift */,
+				15538F0723B4D7BB004CBA95 /* UnsplashRouter.swift */,
+				15538F0923B4D7CE004CBA95 /* UnsplashPresenter.swift */,
+				15538F0B23B4D814004CBA95 /* UnsplashInteractor.swift */,
+				15538F0D23B4D847004CBA95 /* View */,
+				15538F1223B4D8F2004CBA95 /* Model */,
+			);
+			path = UnsplashVC;
+			sourceTree = "<group>";
+		};
+		15538F0D23B4D847004CBA95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15538F0E23B4D864004CBA95 /* UnsplashVC.swift */,
+				15538F1023B4D876004CBA95 /* UnsplashCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15538F1223B4D8F2004CBA95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15538F1323B4D904004CBA95 /* UnsplashModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15538F1723B4D948004CBA95 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				15538F1823B4D960004CBA95 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		15538F1A23B4D992004CBA95 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				15538F1B23B4D99F004CBA95 /* AsyncNetworkService */,
+				15538F2723B4DADA004CBA95 /* NetworkService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		15538F1B23B4D99F004CBA95 /* AsyncNetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				15538F1C23B4D9D3004CBA95 /* AsyncOperations */,
+				15538F2523B4DA97004CBA95 /* ImageLoadProvider.swift */,
+			);
+			path = AsyncNetworkService;
+			sourceTree = "<group>";
+		};
+		15538F1C23B4D9D3004CBA95 /* AsyncOperations */ = {
+			isa = PBXGroup;
+			children = (
+				15538F1D23B4D9E9004CBA95 /* AsyncOperation.swift */,
+				15538F1F23B4DA09004CBA95 /* GetImageOperation.swift */,
+				15538F2123B4DA40004CBA95 /* ImageLoadOperation.swift */,
+				15538F2323B4DA62004CBA95 /* ImageOutputOperation.swift */,
+			);
+			path = AsyncOperations;
+			sourceTree = "<group>";
+		};
+		15538F2723B4DADA004CBA95 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				15538F2E23B4DB35004CBA95 /* Model */,
+				15538F2823B4DAF9004CBA95 /* NetworkService.swift */,
+				15538F2A23B4DB16004CBA95 /* NetworkDataFetcher.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		15538F2E23B4DB35004CBA95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15538F2C23B4DB31004CBA95 /* SearchResults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15538F2F23B4DB5B004CBA95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15538F3023B4DB76004CBA95 /* Extension+UIColor.swift */,
+				15538F3223B4DB99004CBA95 /* Extension+UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15538EE823B4D6A4004CBA95 /* UnsplashApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15538EFD23B4D6A6004CBA95 /* Build configuration list for PBXNativeTarget "UnsplashApp" */;
+			buildPhases = (
+				15538EE523B4D6A4004CBA95 /* Sources */,
+				15538EE623B4D6A4004CBA95 /* Frameworks */,
+				15538EE723B4D6A4004CBA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnsplashApp;
+			productName = UnsplashApp;
+			productReference = 15538EE923B4D6A4004CBA95 /* UnsplashApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15538EE123B4D6A4004CBA95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "OMELCHUK Daniil";
+				TargetAttributes = {
+					15538EE823B4D6A4004CBA95 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 15538EE423B4D6A4004CBA95 /* Build configuration list for PBXProject "UnsplashApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15538EE023B4D6A4004CBA95;
+			productRefGroup = 15538EEA23B4D6A4004CBA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15538EE823B4D6A4004CBA95 /* UnsplashApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15538EE723B4D6A4004CBA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15538EF923B4D6A6004CBA95 /* LaunchScreen.storyboard in Resources */,
+				15538EF623B4D6A6004CBA95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15538EE523B4D6A4004CBA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15538F2623B4DA97004CBA95 /* ImageLoadProvider.swift in Sources */,
+				15538F0C23B4D814004CBA95 /* UnsplashInteractor.swift in Sources */,
+				15538F2023B4DA09004CBA95 /* GetImageOperation.swift in Sources */,
+				15538F1923B4D960004CBA95 /* Constants.swift in Sources */,
+				15538F1423B4D904004CBA95 /* UnsplashModel.swift in Sources */,
+				15538F2923B4DAF9004CBA95 /* NetworkService.swift in Sources */,
+				15538F2B23B4DB16004CBA95 /* NetworkDataFetcher.swift in Sources */,
+				15538F0A23B4D7CE004CBA95 /* UnsplashPresenter.swift in Sources */,
+				15538F0F23B4D864004CBA95 /* UnsplashVC.swift in Sources */,
+				15538F2D23B4DB31004CBA95 /* SearchResults.swift in Sources */,
+				15538EED23B4D6A4004CBA95 /* AppDelegate.swift in Sources */,
+				15538F3123B4DB76004CBA95 /* Extension+UIColor.swift in Sources */,
+				15538F0223B4D722004CBA95 /* MainTabVC.swift in Sources */,
+				15538F1123B4D876004CBA95 /* UnsplashCollectionCell.swift in Sources */,
+				15538F3323B4DB9A004CBA95 /* Extension+UIView.swift in Sources */,
+				15538F2423B4DA62004CBA95 /* ImageOutputOperation.swift in Sources */,
+				15538F2223B4DA40004CBA95 /* ImageLoadOperation.swift in Sources */,
+				15538F0623B4D7A4004CBA95 /* UnsplashConfigurator.swift in Sources */,
+				15538EEF23B4D6A4004CBA95 /* SceneDelegate.swift in Sources */,
+				15538F1E23B4D9E9004CBA95 /* AsyncOperation.swift in Sources */,
+				15538F0823B4D7BB004CBA95 /* UnsplashRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15538EF723B4D6A6004CBA95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15538EF823B4D6A6004CBA95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15538EFB23B4D6A6004CBA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15538EFC23B4D6A6004CBA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15538EFE23B4D6A6004CBA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnsplashApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftOverflow.UnsplashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15538EFF23B4D6A6004CBA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UnsplashApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftOverflow.UnsplashApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15538EE423B4D6A4004CBA95 /* Build configuration list for PBXProject "UnsplashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15538EFB23B4D6A6004CBA95 /* Debug */,
+				15538EFC23B4D6A6004CBA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15538EFD23B4D6A6004CBA95 /* Build configuration list for PBXNativeTarget "UnsplashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15538EFE23B4D6A6004CBA95 /* Debug */,
+				15538EFF23B4D6A6004CBA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15538EE123B4D6A4004CBA95 /* Project object */;
+}

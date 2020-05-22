@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>241293754012-l9lehtv9t56d84tfgsmnpa6h9babh62e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.241293754012-l9lehtv9t56d84tfgsmnpa6h9babh62e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyALWr5Fn87ZgVzMvkJokqx_ZrwTxorYecM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>241293754012</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Swiftoverflow.BankUI</string>
+	<key>PROJECT_ID</key>
+	<string>bankui</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bankui.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:241293754012:ios:8f4e33319303922b767759</string>
+	<key>DATABASE_URL</key>
+	<string>https://bankui.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+warning_threshold: 1000
+
+excluded:
+ - Pods
+ - BankUIUITests
+ - BankUITests
+
+disabled_rules:
+  - identifier_name
+  - nesting
+  - cyclomatic_complexity
+  - line_length
+  - discouraged_direct_init
+
+function_body_length:
+- 110 # warning
+- 150 # error
+
+file_length:
+- 600 # warning
+- 1200 # error
+
+type_body_length:
+- 350 # warning
+- 450 # error
+
+function_parameter_count:
+- 12 # warning
+- 20 # error
