@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD964FB238A93380009115D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD964FA238A93380009115D /* main.swift */; };
+		CFD96502238A9A6A0009115D /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96501238A9A6A0009115D /* Pizza.swift */; };
+		CFD96504238AA0010009115D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96503238AA0010009115D /* Logger.swift */; };
+		CFD96509238AE9C60009115D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96508238AE9C60009115D /* Client.swift */; };
+		CFD9650B238AEE020009115D /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9650A238AEE020009115D /* Director.swift */; };
+		CFD9650D238AEE500009115D /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9650C238AEE500009115D /* Chef.swift */; };
+		CFD9650F238AEEAA0009115D /* Pizzeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9650E238AEEAA0009115D /* Pizzeria.swift */; };
+		CFD96511238B1BF10009115D /* PizzaPrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96510238B1BF10009115D /* PizzaPrototype.swift */; };
+		CFD96513238B1C120009115D /* PizzaDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96512238B1C120009115D /* PizzaDecorator.swift */; };
+		CFD96515238B1C300009115D /* PizzaStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD96514238B1C300009115D /* PizzaStrategy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFD964F5238A93380009115D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFD964F7238A93380009115D /* Pizzeria3000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pizzeria3000; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD964FA238A93380009115D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CFD96501238A9A6A0009115D /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		CFD96503238AA0010009115D /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		CFD96508238AE9C60009115D /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		CFD9650A238AEE020009115D /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		CFD9650C238AEE500009115D /* Chef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		CFD9650E238AEEAA0009115D /* Pizzeria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizzeria.swift; sourceTree = "<group>"; };
+		CFD96510238B1BF10009115D /* PizzaPrototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaPrototype.swift; sourceTree = "<group>"; };
+		CFD96512238B1C120009115D /* PizzaDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDecorator.swift; sourceTree = "<group>"; };
+		CFD96514238B1C300009115D /* PizzaStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStrategy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD964F4238A93380009115D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD964EE238A93380009115D = {
+			isa = PBXGroup;
+			children = (
+				CFD964F9238A93380009115D /* Pizzeria3000 */,
+				CFD964F8238A93380009115D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD964F8238A93380009115D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD964F7238A93380009115D /* Pizzeria3000 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD964F9238A93380009115D /* Pizzeria3000 */ = {
+			isa = PBXGroup;
+			children = (
+				CFD96516238B1E4F0009115D /* Pizza */,
+				CFD96507238AE9B80009115D /* Users */,
+				CFD964FA238A93380009115D /* main.swift */,
+				CFD96503238AA0010009115D /* Logger.swift */,
+				CFD9650E238AEEAA0009115D /* Pizzeria.swift */,
+			);
+			path = Pizzeria3000;
+			sourceTree = "<group>";
+		};
+		CFD96507238AE9B80009115D /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				CFD96508238AE9C60009115D /* Client.swift */,
+				CFD9650A238AEE020009115D /* Director.swift */,
+				CFD9650C238AEE500009115D /* Chef.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		CFD96516238B1E4F0009115D /* Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				CFD96501238A9A6A0009115D /* Pizza.swift */,
+				CFD96510238B1BF10009115D /* PizzaPrototype.swift */,
+				CFD96512238B1C120009115D /* PizzaDecorator.swift */,
+				CFD96514238B1C300009115D /* PizzaStrategy.swift */,
+			);
+			path = Pizza;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD964F6238A93380009115D /* Pizzeria3000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD964FE238A93380009115D /* Build configuration list for PBXNativeTarget "Pizzeria3000" */;
+			buildPhases = (
+				CFD964F3238A93380009115D /* Sources */,
+				CFD964F4238A93380009115D /* Frameworks */,
+				CFD964F5238A93380009115D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pizzeria3000;
+			productName = Pizzeria3000;
+			productReference = CFD964F7238A93380009115D /* Pizzeria3000 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD964EF238A93380009115D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Lev Kolesnikov";
+				TargetAttributes = {
+					CFD964F6238A93380009115D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CFD964F2238A93380009115D /* Build configuration list for PBXProject "Pizzeria3000" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD964EE238A93380009115D;
+			productRefGroup = CFD964F8238A93380009115D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD964F6238A93380009115D /* Pizzeria3000 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD964F3238A93380009115D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD96502238A9A6A0009115D /* Pizza.swift in Sources */,
+				CFD9650D238AEE500009115D /* Chef.swift in Sources */,
+				CFD96504238AA0010009115D /* Logger.swift in Sources */,
+				CFD96511238B1BF10009115D /* PizzaPrototype.swift in Sources */,
+				CFD96513238B1C120009115D /* PizzaDecorator.swift in Sources */,
+				CFD96515238B1C300009115D /* PizzaStrategy.swift in Sources */,
+				CFD9650B238AEE020009115D /* Director.swift in Sources */,
+				CFD96509238AE9C60009115D /* Client.swift in Sources */,
+				CFD964FB238A93380009115D /* main.swift in Sources */,
+				CFD9650F238AEEAA0009115D /* Pizzeria.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFD964FC238A93380009115D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFD964FD238A93380009115D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CFD964FF238A93380009115D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFD96500238A93380009115D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD964F2238A93380009115D /* Build configuration list for PBXProject "Pizzeria3000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD964FC238A93380009115D /* Debug */,
+				CFD964FD238A93380009115D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD964FE238A93380009115D /* Build configuration list for PBXNativeTarget "Pizzeria3000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD964FF238A93380009115D /* Debug */,
+				CFD96500238A93380009115D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD964EF238A93380009115D /* Project object */;
+}
