@@ -533,7 +533,8 @@ extension RegistrationMenu {
 
     @objc func keyboardWillHide(notification: NSNotification) {
         UIView.animate(withDuration: 0.3) {
-            self.constraintContentHeight.constant -= self.keyboardHeight
+            guard let height = self.keyboardHeight else { return }
+            self.constraintContentHeight.constant -= height
 
             self.scrollView.contentOffset = self.lastOffset
         }
