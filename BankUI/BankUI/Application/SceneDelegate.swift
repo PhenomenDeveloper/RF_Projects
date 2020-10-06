@@ -9,7 +9,6 @@
 import UIKit
 import RealmSwift
 import GoogleMaps
-import Firebase
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -41,6 +40,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         print("База данных Realm находится в дирректории - \(fileUrl)")
 
         GMSServices.provideAPIKey(googleApiKey)
-        FirebaseApp.configure()
     }
 }
